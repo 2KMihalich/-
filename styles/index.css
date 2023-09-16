@@ -1,0 +1,8 @@
+@import "normalize.css";
+@import "fonts.css";
+@import "default.css";
+@import "modules/banner.css";
+@import "modules/events.css";
+@import "modules/advantages.css";
+@import "modules/subscription.css";
+@import "modules/footer.css";

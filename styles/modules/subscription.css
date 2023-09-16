@@ -1,0 +1,197 @@
+.subscription {
+   margin-bottom: 72px;
+}
+.subscription__container {
+   color: #21201f;
+}
+.subscription__header {
+   font-size: 32px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: 100%;
+   letter-spacing: -0.64px;
+   margin-bottom: 32px;
+}
+.subscription__description {
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 120%;
+   margin-bottom: 25px;
+}
+.subscription__img-scooter-plus {
+   display: none;
+}
+.scooter-text__scoot {
+   width: 100%;
+   background-image: url(/img/Ellipse1973.svg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+}
+.scooter-text__ellipse {
+   width: 100%;
+}
+
+.subscription__btn {
+   background-color: #ffde40;
+   border-radius: 36px;
+   padding: 18px 10px;
+   width: 100%;
+   font-size: 18px;
+}
+
+.subscription__btn:hover {
+   background-color: #8241ef;
+   color: #fff;
+   -webkit-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+.subscription__btn:active {
+   background-color: black;
+   color: #fff;
+   -webkit-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+.scooter-plus__cloud {
+   display: none;
+}
+
+@media (min-width: 1024px) {
+   .subscription__header {
+      font-size: 48px !important;
+      letter-spacing: -0.96px;
+      margin-bottom: 48px !important;
+   }
+   .subscription__description {
+      font-size: 24px !important;
+      margin-bottom: 48px !important;
+   }
+   .subscription__text {
+      max-width: 419px;
+   }
+   .subscription__img-scooter-plus {
+      display: block;
+      position: relative;
+   }
+   .scooter-plus__scoot {
+      display: block !important;
+      position: absolute;
+      top: -35%;
+      left: -57%;
+   }
+   .scooter-plus__cloud {
+      position: absolute;
+      z-index: -1;
+      display: block;
+      top: -25%;
+      left: 10%;
+      width: 220%;
+   }
+   .cloud-style {
+      top: -40%;
+      left: -65%;
+   }
+   .subscription__plus {
+      margin: 0 0 128px 0;
+      -webkit-box-orient: horizontal !important;
+      -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+      flex-direction: row !important;
+      z-index: 2;
+   }
+   .scooter-plus__plus {
+      z-index: 2;
+   }
+   .subscription__img-scooter-text {
+      -webkit-box-ordinal-group: 1 !important;
+      -ms-flex-order: 0 !important;
+      order: 0 !important;
+      -webkit-box-orient: horizontal !important;
+      -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+      flex-direction: row !important;
+      position: relative;
+      -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+   }
+   .subscription__econom {
+      -webkit-box-orient: horizontal !important;
+      -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+      flex-direction: row !important;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+   }
+   .subscription__btn {
+      max-width: 281px;
+      font-size: 24px;
+   }
+   .scooter-text__scoot {
+      position: absolute;
+      width: 130% !important;
+      left: -115px;
+      top: -75px;
+   }
+   .subscription {
+      margin-bottom: 112px;
+   }
+}
+
+@media (min-width: 768px) {
+   .subscription__header {
+      font-size: 40px;
+      margin-bottom: 40px;
+   }
+   .subscription__description {
+      font-size: 20px;
+   }
+   .subscription__img-scooter-plus {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+   }
+   .scooter-plus__scoot {
+      display: none;
+   }
+   .subscription__plus {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+   }
+   .subscription__econom {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+   }
+   .subscription__img-scooter-text {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+      order: 1;
+   }
+   .scooter-text__scoot {
+      width: 70%;
+   }
+}
+
+@media (min-width: 480px) {
+}
